@@ -89,13 +89,16 @@ p {
 .nav-links {
     list-style: none;
     display: flex;
+    align-items: stretch;
 }
 
 .nav-links li {
-    margin-left: 5px;
+    display: flex;
     text-align: center;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin: 0;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-links a {
@@ -104,13 +107,15 @@ p {
     color: #ff0000;
     font-size: 15px;
     font-weight: 500;
-    padding: 8px 12px;
     border-radius: 6px;
-    transition: color 0.3s;
+    display: block;
+    padding: 8px 12px;
+    text-align: center;
+    transition: color 0.3s, background-color 0.3s;
 }
 
 .nav-links a:hover {
-    background-color: #ffffff;
+    background-color: #cccccc;
     color: #00e1ff;
 }
 
