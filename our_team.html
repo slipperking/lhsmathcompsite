@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-image: url('sl_072622_51930_13.jpg');
+            background-size: auto;
+            background-repeat: repeat;
+            background-size: 800px;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #ff0000;
+            font-size: 125px;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #ff0000;
+            font-weight: bold;
+        }
+
+        p {
+            color: #000000;
+        }
+
+        .logo {
+            width: 5%;
+            height: auto;
+            align-items: center;
+            margin: 0px;
+            padding: 5px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #ffffff;
+            border-bottom: 5px solid #000000;
+            color: #000000;
+        }
+
+        .title {
+            color: #00e1ff;
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 10px;
+        }
+
+        .nav-links li {
+            margin: 0;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            background-color: transparent;
+            color: #ff0000;
+            font-size: 15px;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 6px;
+        }
+
+        .nav-links a:hover {
+            background-color: #ffffff;
+            color: #00e1ff;
+        }
+
+        .nav-links a.signup {
+            font-weight: bold;
+            font-size: medium;
+            background-color: #ffffff;
+            color: #000000;
+            transition: background-color 1s;
+        }
+
+        .nav-links a.signup:hover {
+            background-color: #c3c3c3;
+            color: #ffffff;
+        }
+
+        .team-container {
+            background: rgba(0, 0, 0, 0.08);
+            border-radius: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .team-card {
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 40px;
+            text-align: justify;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease;
+        }
+
+        .team-card h3 {
+            color: #ff0000;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0 10px;
+        }
+
+        .team-image {
+            border-radius: 50%;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .team-role {
+            color: rgb(50, 50, 130);
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .team-bio {
+            font-size: 14px;
+            line-height: 1.3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img class='logo' src='LMAOlogo.png'>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="competition_resources.html">Competition Resources</a>
+            <a href="officer_page.html">Our Team</a>
+            <a class="signup" href="https://tinyurl.com/lmaosignup26">SIGN UP</a>
+        </div>
+    </div>
+    <header style="text-align: center; padding: 60px; background-color:rgba(0, 0, 0, 0.08)">
+        <h1 style="margin: 0px">Meet Our Team</h1>
+    </header>
+    <div class="team-container">
+        <div class="team-card">
+            <h3>Tianlin Liu</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Problem Writer, Operations</div>
+            <p class="team-bio">
+                Tianlin is a 10th grader from Lynbrook High School. Her favorite subject is geometry. Outside of math,
+                she also likes drawing and reading.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Robert Yang</h3>
+            <div class="team-role">9th Grade</div>
+            <div class="team-role">Problem Writer, Operations, Activities</div>
+            <p class="team-bio">
+                Robert is a freshman at Lynbrook High School. He enjoys thinking about discrete math, and he spends some
+                of his free time solving physics and chemistry problems. Even with all of that, he finds the time to go
+                outside and touch grass by playing varsity tennis for Lynbrook.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Catherine Jian</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Operations, PR, Web Dev, Problem Writer</div>
+            <p class="team-bio">
+                I am currently a sophomore at Lynbrook High School. My favorite math topics are geometry and
+                combinatorics. Outside of math, I enjoy reading about history.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Ryan Wang</h3>
+            <div class="team-role">9th Grade</div>
+            <p class="team-bio">
+                Despite being named "iliketrains", one does not enjoy trains more than the average person.
+            </p>
+        </div>
+        <div class="team-card">
+            <img src="assets/team_introductions/yunfeix.png" alt="Yunfei" class="team-image">
+            <h3>Yunfei Xia</h3>
+            <div class="team-role">10th Grade</div>
+            <p class="team-bio">
+                I'm very tuff, I do Oly Geo and like Evan Chen style projective sol. I like college math tournaments for
+                their merch. I like track but all math people quitted because other math people quitted, besides the
+                freshmen I convinced to be on the team.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Nitin Reddy Vaka</h3>
+            <div class="team-role">11th Grade</div>
+            <div class="team-role">Problem Writer</div>
+        </div>
+        <div class="team-card">
+            <h3>Mason Shu</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Problem Writer, Web Development</div>
+            <p class="team-bio">
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Andrew Liu</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Emotional Support, Operations</div>
+        </div>
+        <div class="team-card">
+            <h3>Matthew Yuan</h3>
+            <div class="team-role">12th Grade</div>
+            <div class="team-role">Emotional Support, Problem Writer, PR</div>
+            <p class="team-bio">
+                Emotional support team-bio main but I'll also do like Problem Writer and PR I guess, mostly team-bio though.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Brianna Su</h3>
+            <div class="team-role">9th Grade</div>
+            <div class="team-role">Web Development, Public Relations, Operations</div>
+        </div>
+        <div class="team-card">
+            <h3>Tanish Kolhe</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Problem Writer</div>
+            <p class="team-bio">
+                I like dogs and bluff.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Sophia Liu</h3>
+            <div class="team-role">9th Grade</div>
+            <div class="team-role">PR, Operations</div>
+        </div>
+        <div class="team-card">
+            <h3>Derek Hu</h3>
+            <div class="team-role">9th Grade</div>
+            <div class="team-role">Problem Writer</div>
+        </div>
+        <div class="team-card">
+            <img src="assets/team_introductions/tommyw.png" alt="Tommy" class="team-image">
+            <h3>Tommy Wang</h3>
+            <div class="team-role">10th Grade
+            </div>
+            <div class="team-role">Problem Writer</div>
+        </div>
+        <div class="team-card">
+            <h3>Yutong Qiu</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">PR, Operations</div>
+            <p class="team-bio">
+                Yutong is a sophomore at Lynbrook High School. Their favorite math subject is discrete math. They also
+                enjoy computer science, physics, writing, drawing, and playing violin.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Brian Lu</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Problem Writer</div>
+            <p class="team-bio">
+                Didn't make JMO, likes to run.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Bohan Yang</h3>
+            <div class="team-role">9th Grade</div>
+            <div class="team-role">Problem Writer, Operations</div>
+            <p class="team-bio">
+                While a lazy bum who rarely locks in, Bohan enjoys problem solving and tackling competitive math. He
+                also enjoys writing problems of his own and presenting them to others via MathCounts volunteering. Bohan
+                also likes to swim and debate outside of math, thus giving him somewhat of a life.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Hannah Zhang</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">PR, Operations</div>
+            <p class="team-bio">
+                Hannah is a sophomore at Lynbrook. Her favorite math topic is geometry. Outside of math she also enjoys
+                swimming, running, watching YouTube, and doing random things.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Ishaan Mittal</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Problem Writer</div>
+        </div>
+        <div class="team-card">
+            <h3>Dhruvi Pandey</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">PR, Operations</div>
+        </div>
+        <div class="team-card">
+            <h3>Sophia Shi</h3>
+            <div class="team-role">11th Grade</div>
+            <div class="team-role">PR, Activities</div>
+        </div>
+        <div class="team-card">
+            <h3>Ian Chen</h3>
+            <div class="team-role">11th Grade</div>
+            <div class="team-role">Activities</div>
+        </div>
+        <div class="team-card">
+            <h3>Wesley Shen</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Problem Writer, Operations</div>
+            <p class="team-bio">
+                I'll make sure to actually do something.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Isabel Ye</h3>
+            <div class="team-role">11th Grade</div>
+            <div class="team-role">Activities</div>
+        </div>
+        <div class="team-card">
+            <h3>Sungrok (Roy) Kim</h3>
+            <div class="team-role">11th Grade</div>
+            <div class="team-role">Operations, Problem Writer</div>
+            <p class="team-bio">
+                I like soccer.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Brian Law</h3>
+            <div class="team-role">12th Grade</div>
+            <div class="team-role">Problem Writer</div>
+            <p class="team-bio">
+                Apparently on one of the joker cards?
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Evan Xiang</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Operations, PR</div>
+            <p class="team-bio">
+                I like basketball.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Batuhan Harmanci</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">Problem Writer, PR</div>
+            <p class="team-bio">
+                I'm from Mountain View High School, probably just here to help Dhruvi.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Jasmine Lien</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">PR, Operations</div>
+            <p class="team-bio">
+                I like food and making tables.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Chelsea Ye</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">PR, Operations</div>
+            <p class="team-bio">
+                I ran a sandwich shop in Minecraft, I think I'm qualified enough.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Aarush Tiwari</h3>
+            <div class="team-role">12th Grade</div>
+            <div class="team-role">Web Dev</div>
+            <p class="team-bio">
+                Hi guys, this is Aarush ie Baba T, working on the LMAO website.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Rushil Agrawal</h3>
+            <div class="team-role">9th Grade</div>
+            <div class="team-role">Web Dev</div>
+            <p class="team-bio">
+                I like food and basketball.
+            </p>
+        </div>
+        <div class="team-card">
+            <h3>Victoria Huang</h3>
+            <div class="team-role">10th Grade</div>
+            <div class="team-role">PR, Operations</div>
+        </div>
+        <div class="team-card">
+            <h3>Ethan Han</h3>
+            <div class="team-role">9th Grade</div>
+            <div class="team-role">Operations, Problem Writer</div>
+        </div>
+        <div class="team-card">
+            <h3>Katherine Li</h3>
+            <div class="team-role">9th Grade</div>
+            <div class="team-role">Operations, Public Relations</div>
+            <p class="team-bio">
+                Katherine enjoys data sciences and a nice typography design.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
