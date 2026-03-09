@@ -185,3 +185,13 @@ p {
         display: block;
     }
 }
+
+.nav-filler {
+    padding: 0;
+    margin: 0;
+    height: 120px;
+}
+
+.fixed {
+    position: fixed;
+}
